@@ -1,3 +1,66 @@
-*{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.product_plans {
+    padding: 75px 0;
+}
+
+.products_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products_heading {
+    width: 523px;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -1.88px;
+}
+
+.period-buttons {
+    padding: 5px 6px;
+    background: orange;
+    border-radius: 10px;
+}
+
+.period-button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    padding: 17px 56px;
+}
+
+.period-button:hover {
+    background-color: purple; /* Цвет при наведении */
+    color: white;
+    border-radius: 10px; /* Если нужно округление */
+}
+
+.period-button:active, 
+.period-button:focus {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+/* .main_header{ 
+    text-align: center;
+    font-family: monospace;
+    text-transform: uppercase;
+} */
+
